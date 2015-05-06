@@ -1,4 +1,4 @@
-#pull-responsive
+#Pull-responsive
 
 Pull elements to the left, based on responsive settings.
 
