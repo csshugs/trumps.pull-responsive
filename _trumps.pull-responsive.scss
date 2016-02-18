@@ -17,7 +17,7 @@
         // Loop through each of our column sizes and generate its responsive pull
         // classes.
         @each $inuit-widths-column in $inuit-widths-columns-responsive {
-            @include inuit-pull($inuit-widths-column, -#{$alias});
+            @include inuit-pull($inuit-widths-column, \@#{$alias});
         }
 
     }
